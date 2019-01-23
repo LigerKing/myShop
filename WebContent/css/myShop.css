@@ -1,0 +1,26 @@
+@charset "EUC-KR";
+
+table {
+	border: 1px solid;
+	border-collapse: collapse;
+}
+
+th {
+	border: 1px solid;
+	padding: 10px;
+	text-align: center;
+	background-color: #c1e2ff;
+}
+
+td {
+	border: 1px solid;
+	padding: 10px;
+}
+  
+tr:nth-child(2n) {
+	background-color: #ffffff;
+}
+
+tr:nth-child(2n+1) {
+	background-color: #dbeeff;
+}
